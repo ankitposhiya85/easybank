@@ -1,0 +1,35 @@
+@media  (max-width:750px){
+    .navbar .btn {
+        display: none;
+    }
+
+    .sec1 {
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+
+    .sec1 .left_side {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .sec1 .right_side {
+        display: none;
+    }
+    .sec1 .right_side::before {
+        display: none;
+    }
+
+}
+
+@media (min-width:750px) {
+    .navbar .cancel_btn, 
+    .menu_btn {
+        display: none;
+    }
+
+    
+}
+
